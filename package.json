@@ -1,0 +1,25 @@
+{
+  "name": "teamfund",
+  "version": "1.0.0",
+  "description": "Organize fundrising sales for your team or group",
+  "main": "server.js",
+  "scripts": {
+    "test": "test",
+    "start": "node server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+ssh://git@github.com/meli-pisarello/teamfund.git"
+  },
+  "keywords": [
+    "teams",
+    "funding",
+    "sales"
+  ],
+  "author": "Melina Pisarello",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/meli-pisarello/teamfund/issues"
+  },
+  "homepage": "https://github.com/meli-pisarello/teamfund#readme"
+}
