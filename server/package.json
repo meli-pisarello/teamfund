@@ -2,10 +2,11 @@
   "name": "teamfund",
   "version": "1.0.0",
   "description": "Organize fundrising sales for your team or group",
-  "main": "server.js",
+  "main": "index.js",
   "scripts": {
     "test": "test",
-    "start": "nodemon server.js"
+    "start": "node index",
+    "server": "nodemon index"
   },
   "repository": {
     "type": "git",
@@ -23,7 +24,16 @@
   },
   "homepage": "https://github.com/meli-pisarello/teamfund#readme",
   "dependencies": {
+    "cors": "^2.8.5",
+    "dotenv": "^16.3.1",
     "express": "^4.18.2",
-    "nodemon": "^3.1.0"
+    "mongoose": "^7.5.4"
+  },
+  "engines": {
+    "node": ">=18.17.0",
+    "npm": ">=9.8.1"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.4"
   }
 }

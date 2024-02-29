@@ -1,6 +1,7 @@
 
-# dependencies
+# volumes
 /node_modules
+/mydata
 
 # testing
 /coverage
